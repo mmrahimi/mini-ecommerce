@@ -18,7 +18,10 @@ A mockstore built with Laravel
    
 3. **Configure environment**
 - Copy `.env.example` to `.env`
-- php artisan key:generate
+- Generate app key:
+  ```bash
+  php artisan key:generate
+  ```
 
 4. **Run the migrations**
    ```bash
